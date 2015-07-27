@@ -1,26 +1,29 @@
-- sitetitle = 'EDUPAL: 我的學習好朋友'
-- mail = 'EDUPAL@tw.shuttle.com'
-- absolutpath = 'http://edupal.tw.shuttle.com/ebook_web/'
-- copyright = 'COPYRIGHT © 2015 SHUTTLE INC. ALL RIGHTS RESERVED'
-/ - assetspath = '/'
-/ - httpspath = '//'
+- sitetitle      = 'EDUPAL: 我的學習好朋友'
+- mail           = 'EDUPAL@tw.shuttle.com'
+- absolutpath    = 'http://edupal.tw.shuttle.com/ebook_web/'
+- copyright      = 'COPYRIGHT © 2015 SHUTTLE INC. ALL RIGHTS RESERVED'
+/ - assetspath   = '/'
+/ - httpspath    = '//'
 / dev
-- assetspath = ''
-- httpspath = 'https://'
+- assetspath     = ''
+- httpspath      = 'https://'
 
 // content
--site_no					= '39'
--this_date				= 'July, 2015'
+-site_no	     = '40'
+-this_date	     = 'July, 2015'
 
--nav_title_1			= '活動報導 '
--heading_title_1 	= '2015 年台北國際電腦展(Computex 2015)圓滿落幕'
--img_note_1				= '015年台北國際電腦展浩鑫展出EDUPAL®智慧教育整合方案'
--nav_title_2			= '好書報報'
--heading_title_2	= '林良爺爺憶兒時'
--img_note_2				= ''
--nav_title_3			= '教育一點靈'
--heading_title_3	= ''
--img_note_3				= ''
+-nav_title_1	 = '產品新訊 '
+-heading_title_1 = '現在購買EDUPAL®行動圖書館，就享優惠好禮三選一'
+-img_note_1		 = ''
+
+-nav_title_2	 = '教育二三事'
+-heading_title_2 = '曼陀羅思考法'
+-img_note_2		 = '曼陀羅思考法-擴展型(輻射)'
+-img_note_2_1	 = '曼陀羅思考法-圍繞型(順向)'
+
+-nav_title_3	 = '好書報報'
+-heading_title_3 = '後山小手印'
+-img_note_3		 = ''
 
 
 doctype html
@@ -66,28 +69,79 @@ html lang="zh-TW"
 					/ h2.heading style="color: #8cc13f;"
 					/ 	| EDUPAL
 					/ 	span.upper ® 
-					/ 	| 行動圖書館標案已上架!
+					/ 	| 行動圖書館第二波促銷專案，買就送優惠好禮三選一！！
 					.content
 						p style="color: #8cc13f; font-size: 15px;"
-							| 104年第一次電腦軟體共同供應契約採購，EDUPAL
+							| EDUPAL
 							span.upper ® 
-							| 行動圖書館（1,000人版）已上架！組別為第 16 組第 244 項，歡迎選購！
+							| 行動圖書館第二波促銷專案，買就送優惠好禮三選一！！
 			
 			#SECTION-01.section-even
 				.container
 					h1.section-title
 						span.section__title-icon
 						span.section__title #{nav_title_1}
-					h2.heading #{heading_title_1}
+					/ h2.heading #{heading_title_1}
+					div style="height:40px"
 					.content
+
 						.right
 							img.img src='#{assetspath}images/assets/0#{site_no}/0#{site_no}-section-01-01.jpg'
-							p.img-note #{img_note_1}
-						p 台北國際電腦展是目前亞洲最大、全球第二大的資通訊展覽。今年共分智慧聯網、行動應用及雲端運算服務等3大主題館，另有4大高峰論壇，舉辦超過100場論壇及研討會，以及40場新品發表會。
-						p 浩鑫今年擴大參與，展出包含桌上型XPC、薄型(Slim)機種、XPC-PLUS、All-in-One一體機以及人臉辨識系統HR70等自有品牌為主的產品，展出多螢幕方案、數位廣告看板、KIOSK、POS應用、人臉辨識通關系統…等適合各種行業						p 應用之情境；而深耕多年的EDUPAL®智慧教育整合方案與SMARTVILLE™智慧家居解決方案也展出了各種創新應用。
+							/ p.img-note #{img_note_1}
+						p 日新月異的科技讓人類對於未來無限的想像成真，一個小小的改變能造成大大的革命，一項技術的突破或發明，改變了人們以往的習慣甚至是生活型態，誰也不會想到原本只是傳聲的電話，現在不只能帶著走，還能結合網路做各種的應用，或許我們的生活已不能完全脫離科技，但在我們享受科技便利的同時，有時卻反而想回到最原始的純粹，因為即便我們仰賴科技，但真正的本質並不該被扭曲，生活如此，閱讀亦然，所以我們享受的是閱讀的美好，儘管形式有所不同。
+
 						.morecontent
-							p EDUPAL®智慧教育整合方案，在今年台北國際電腦展的展出重點為教室管理系統(EDUPAL® Classroom Management System)。EDUPAL®教室管理系統不僅提供教師非常便利的數位教學工具、教室管理功能，亦能提升學生數位學習成效，以及群組討論、協同合作等互動學習之能力，而今年推出的2.1升級版本，沒有指定機種的限制，不論是Android或Windows系統的平板皆可使用，p 並能同時控制50台以上平板，都讓許多參觀者眼睛為之一亮！除此之外，另展出為教師量身規劃的多媒體編輯備課解決方案，提供教師編輯圖片、聲音、影片、文字、外部連結等素材，輕鬆製作專屬的數位教材，提供學生更多元豐富的學習資源。
-							p SMARTVILLE™智慧家居解決方案除了滿足現代化智慧家庭的需求之外，更可延伸應用在校園環境，透過Z-Wave無線控制技術，無需施工佈線，校園管理者利用控制中心(Control Center)或Android手機、平板電腦遠端遙控燈光情境、空調冷氣、電動窗簾等功能，搭配網路攝影機、門窗感應器、煙霧/一氧化碳偵測器，一有異狀立刻提供警訊或啟動p 緊急錄影，全面打造安全、節能、自動化的智慧校園。
+
+							p
+							 | 浩鑫今數位閱讀，是這幾年流行的話題，尤其隨著行動裝置和網路的普及和發展，閱讀變得更方便容易，數位化的文本較易保存不佔空間，還可加值影音多媒體、擴增實境或分享、互動等功能，提供讀者新的閱讀體驗，即便如此，在台灣的閱讀人口和平均閱讀量，卻是逐年下滑，因此，推廣閱讀和培養良好的閱讀習慣是目前教育的重點項目之一，除了閱讀策略的引導、閱讀氣氛的營造和老師的指導之外，若能利用簡易方便的工具輔助，定能收到讓事半功倍之效。
+
+							p
+								| EDUPAL
+								span.upper ®
+								| 行動圖書館除了提供優良圖書供學生借閱之外，老師也可以透過系統後台，自製數位多媒體教材，提供教學上更多元的支援；提供完整的閱讀紀錄，讓老師檢視學生完整的借閱紀錄以及閱讀行為，了解班級整體的閱讀狀況，也能利用借書排行獎勵借書踴躍的學生，更可依班級的熱門書籍來選擇共讀與指定、推薦閱讀的內容，培養閱讀的習慣與引起主動閱讀的動機。
+
+							p 
+								| 現在購買EDUPAL
+								span.upper ® 
+								| 行動圖書館，就享優惠好禮三選一：
+								br 
+								| * 行動圖書館借閱前台
+								br
+								| * 行動圖書館管理後台
+								br
+								| * 1,000人帳號使用版
+								br
+								| * 多媒體編輯平台
+								br
+								| * 一年軟體保固維護(不含資料庫備份服務)
+
+								table
+									tr
+										td
+											b style="color: #3ac0f0" 好禮一
+									tr
+										td
+											ol
+												li ▸ 伺服器1台
+												li ▸ 第二年軟體保固(含第一年資料庫備份服務)
+												li ▸ 250本電子書
+									tr
+										td
+											b style="color: #3ac0f0" 好禮二
+									tr
+										td
+											ol
+												li ▸ 微型電腦2台
+												li ▸ 230本電子書
+									tr
+										td
+											b style="color: #3ac0f0" 好禮三
+									tr
+										td
+											ol
+												li ▸ 閱讀歷程模組
+												li ▸ 325本電子書
+							
 						a.btn.btn-blue.morelink href='javascript:;' 詳全文
 			#SECTION-02.section-odd
 				.container
@@ -97,71 +151,75 @@ html lang="zh-TW"
 					h2.heading #{heading_title_2}
 					.content
 						.left
-							img.img src='#{assetspath}images/assets/0#{site_no}/0#{site_no}-section-02-01.jpg' alt='會走路的山'
-						table
-							tr
-								td style="width: 85px"
-									b 出版社：
-								td
-									| 幼獅文化
-							tr
-								td
-									b 作者：
-								td
-									| 林良
-							tr
-								td
-									b 繪者：
-								td
-									| 鄭明進
-							tr
-								td
-									b ISBN：
-								td
-									| 9789575749040
+							img.img src='#{assetspath}images/assets/0#{site_no}/0#{site_no}-section-02-01.jpg' alt='曼陀羅思考法-擴展型(輻射)'
+							p.img-note #{img_note_2}
+							img.img src='#{assetspath}images/assets/0#{site_no}/0#{site_no}-section-02-02.jpg' alt='曼陀羅思考法-圍繞型(順向)'
+							p.img-note #{img_note_2_1}
+
+						p 曼陀羅是梵語「Mandala」的音譯，後由日本學者今泉浩晃博士所發展的全新思考法，曼陀羅思考法是一種擴散性思維的思考策略，方式是利用像九宮格的圖，把主題寫在中間，然後再把由主題所引發的各種概念或聯想寫在其餘的八個空格內，可以是抽象概念，例如：回憶、快樂、夢想等等，也可以是具象實體，例如：
+						p 手機、帳單、充電線等等。這種方式脫離直線思考的限制，並可將各種想法涵蓋在內，通常有以下兩種型式：
+
 						.morecontent
-							table
-								tr
-									td style="width: 85px"
-										b 簡介:
-									td
-										p 回憶就像影片的「倒帶」，回憶使我們回到「過去」，使過去的一切，或者過去的某一件事，重新鮮活起來，而且產生了新的意義。
-										p 本書共有五篇：〈外公外公〉、〈三個外國人〉、〈南瓜糕與蘿蔔糕〉、〈水仙花開過新年〉、〈坐汽車〉。請跟著林良爺爺一起進入回憶的世界，並慢慢發掘我們的生活中有許多許多寫作的材料，等待我們去取用。
-
-								tr
-									td
-										b 本書特色:
-									td
-										ol
-											li 1.一篇篇溫暖的小故事，輔以精采插畫，使孩子能輕易理解，有助於生活應用，精進作文力。
-											li 2.生活散文深深吸引讀者一頁頁跟著故事情節一口氣讀完。
-											li 3.不一樣的「插畫」，更多元的視覺圖像嚮宴。
-
-								tr
-									td
-										b 得獎紀錄:
-									td
-										ul
-											li 好書大家讀入選
-											li 新聞局中小學生優良課外讀物推介
+							p * 擴展型(輻射)：從問題中心開始向外面的八個方格作水平思考
+							p * 圍繞型(順向)：順時針在外面的八個方格逐個方格作垂直思考
+							p 在教學上的應用，老師可以引導學生利用曼陀羅思考法做創意思考聯想，再將發散的概念一一加以整合、重組，形成有系統有組織的脈絡，此思考策略的運用能幫助學生在各科上的學習或筆記，對於各項工作或計畫也都能用此方式發想、釐清和歸納。
+							
 						a.btn.btn-orange.morelink.right href='javascript:;' 詳全文
 			#SECTION-03.section-even
 				.container
 					h1.section-title
 						span.section__title-icon
 						span.section__title #{nav_title_3}
+					h2.heading #{heading_title_3}
 					.content
-						ul.heyper-link
-							li: a href='http://epaper.edu.tw/topical.aspx?topical_sn=874&period_num=670' target='_blank' 逾千熱血教師動起來　翻轉偏鄉從暑假開始！
-							li: a href='http://www.lihpao.com/?action-viewnews-itemid-119882' target='_blank' 數位閱讀 數位科技導入教學 66所國中小分享成果
-							li: a href='http://www.lihpao.com/?action-viewnews-itemid-119878' target='_blank' 解決偏鄉教師荒 教部規劃社群平台
-							li: a href='http://udn.com/news/story/6898/1009497' target='_blank' 小學操場當曬穀場 義賣白米做畢旅基金
-							li: a href='http://www.chinatimes.com/newspapers/20150609000754-260107' target='_blank' 到底誰比較厲害？
-							li: a href='http://udn.com/news/story/7781/1008631' target='_blank' 應該歡樂的舞蹈課卻沒了笑聲… 比舞步更重要的事
-							li: a href='http://flipedu.parenting.com.tw/information-detail?id=1542' target='_blank' 當怪獸家長找上門,該怎麼辦？
-							li: a href='http://flipedu.parenting.com.tw/information-detail?id=1532' target='_blank' 用對方法,他們教會了被放棄的孩子
-							li: a href='http://flipedu.parenting.com.tw/information-detail?id=1485' target='_blank' 加高圍牆、增加監視器,校園就安全嗎？
-							li: a href='http://udn.com/news/story/6949/1001645-%E6%95%99%E7%94%84%E8%A6%93%E5%B8%AB%EF%BC%8C%E5%A6%82%E6%AD%A4%E6%8F%AA%E5%BF%83%EF%BC%9A%E6%84%9B%E5%AD%A9%E5%AD%90%E7%9A%84%E7%9C%BC%E7%A5%9E%E9%A8%99%E4%B8%8D%E4%BA%86%E4%BA%BA%EF%BC%81' target='_blank' 教甄覓師，如此揪心：愛孩子的眼神騙不了人！
+						.right
+							img.img src='#{assetspath}images/assets/0#{site_no}/0#{site_no}-section-03-01.jpg' alt='後山小手印'
+						table
+							tr
+								td style="width: 85px"
+									b 出版社：
+								td
+									| 人類智庫數位科技股份有限公司
+							tr
+								td
+									b 作者：
+								td
+									| 花蓮縣壽豐鄉水璉教會等
+							tr
+								td
+									b 繪者：
+								td
+									| 花蓮縣壽豐鄉水璉教會等
+							tr
+								td
+									b ISBN：
+								td
+									| 9789864136797
+						.morecontent
+							table
+								tr
+									td style="width: 85px"
+										b 簡介:
+									td
+										p 孩子們用圖畫告訴你，在部落流傳已久，讓人驚呼不可思議的後山奇幻故事！
+
+								tr
+									td
+										b 本書特色:
+									td
+										ol
+											li 1.傳說、圖騰、祖靈信仰，交織成一篇篇古老的神祕故事，藉由阿美族、排灣族、布農族的部落耆老親自口述，將部落文化傳承給下一代，讓傳統不會被遺忘。
+											li 2.部落的孩子將故事加以想像，然後快樂的拿起畫筆，畫出一幅幅色彩鮮豔，具有故事張力的圖畫。每個孩子的畫都有屬於自己的獨特風格，加上活潑生動的文字敘述，構成一本精采的圖文書，書中人物栩栩如生，躍然紙上，彷彿故事就在眼前發生。
+											li 3.獵人打獵時有哪禁忌？原住民的檳榔文化是什麼？他們的飲食、生活、傳統藝術有哪些特色？答案都在姆姆的話裡。
+											li 4.透過故事，部落的族人要將心中的信仰和堅持傳達給所有人，不論身在何方，部落傳統永遠都是他們的精神依歸。
+
+								tr
+									td
+										b 得獎紀錄:
+									td
+										ul
+											li 第35次新聞局中小學生優良課外讀物
+						a.btn.btn-orange.morelink.right href='javascript:;' 詳全文
 		.footer
 			.contact
 				.container
