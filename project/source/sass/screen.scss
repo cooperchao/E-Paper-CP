@@ -514,3 +514,21 @@ a {
 		}
 	}
 }
+
+/* added style */
+#SECTION-01 {
+	li {
+		& em {
+			color: $color-1;
+			font-weight: bold;
+			display: block;
+		}
+	}
+}
+#SECTION-03 {
+	img {
+		@include at-breakpoint($ipad) {
+			max-width: 380px;
+		}
+	}
+}
