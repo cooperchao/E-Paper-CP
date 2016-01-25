@@ -9,19 +9,21 @@
 - httpspath      = 'https://'
 
 // content
--site_no	     = '45'
--this_date	     = 'January, 2016'
+-site_no	     = '46'
+-this_date	     = 'February, 2016'
 
--nav_title_1	 = '2015年回顧特稿'
+-nav_title_1	 = '浩鑫 軟硬合一 強勢出擊'
 -heading_title_1 = ''
--img_note_1		 = ''
+-img_note_1		 = 'XPC準系統'
+-img_note_1_2    = 'Slim薄型電腦'
+-img_note_1_3	 = '生物辨識系統'
 
--nav_title_2	 = '好書報報'
+-nav_title_2	 = ''
 -heading_title_2 = ''
 -img_note_2		 = ''
 / -img_note_2_1	 = ''
 
--nav_title_3	 = '教育一點靈'
+-nav_title_3	 = ''
 -heading_title_3 = ''
 -img_note_3		 = ''
 
@@ -59,9 +61,11 @@ html lang="zh-TW"
 				.container
 					h3.no 第 #{site_no} 期
 					ul.nav
-						li.nav-list.item-01: a href='#SECTION-01' #{nav_title_1}
-						li.nav-list.item-02: a href='#SECTION-02' #{nav_title_2}
-						li.nav-list.item-03: a href='#SECTION-03' #{nav_title_3}
+						li.nav-list.item-01  style="border-color:transparent"
+							a href='#SECTION-01'
+						/ li.nav-list.item-01: a href='#SECTION-01' #{nav_title_1}
+						/ li.nav-list.item-02: a href='#SECTION-02' #{nav_title_2}
+						/ li.nav-list.item-03: a href='#SECTION-03' #{nav_title_3}
 
 		.content
 			#SECTION-00.section-odd
@@ -84,139 +88,140 @@ html lang="zh-TW"
 					/ h2.heading #{heading_title_1}
 					div style="height:40px"
 					.content
-						.right
-							img.img style="max-width:520px" src='#{assetspath}images/assets/0#{site_no}/0#{site_no}-section-01.jpg' alt="浩鑫優質的數位閱讀系統"
-							/ p.img-note #{img_note_1}
 						p
-							| 2015年是浩鑫在教育產品上扎根及拓展的一年，自2011年開始投身於教育市場，我們規劃了極具彈性及延伸性的「互動學習管理系統」，兼備網絡教與學、教學管理及溝通和通訊等全方位功能，可依據市場、客戶屬性及專案規模的不同彈性調整方案，包含EDUPAL
-							span.upper ® 
-							| Smart Education（教育公雲服務）、EDUPAL
-							span.upper ® 
-							| Smart School（學校私雲服務）、EDUPAL
-							span.upper ® 
-							| Smart Classroom（教室服務）等系統架構，以整體統籌規劃來打造最佳的智慧教育方案。
+							| 浩鑫2015年在教育市場上的耕耘已打響了名號，感謝全台各地各級學校的支持，行動圖書館及教室管理系統兩大軟體系統，目前已有百間學校購買使用，並且在教學上實施及應用，獲得許多好評及迴響，在新的年度裡，浩鑫會持續深耕踏著堅實的腳步前進。
 						p
-							| 這一年當中，我們參與了很多研習活動和座談會，除了推廣EDUPAL
-							span.upper ® 
-							| 行動圖書館及EDUPAL
-							span.upper ® 
-							| 教室管理系統之外，更重要的是，還能藉此得到許多的回饋和建議，在過程中我們也看到許多老師利用行動圖書館，將自己的教材透過後台上傳，並結合多媒體嵌入功能，將影片、圖片等素材融入在教材之中，作為上課時的補充資料，而學生也可以隨時利用行動圖書館借閱後，在家自行複習或預習；有些學校則是將畢業紀念冊、校刊、學生優良作品、競賽作品等等上傳到EDUPAL
-							span.upper ® 
-							| 行動圖書館平台，方便學生們閱讀、觀摩和欣賞，數位化具有便利和易擴散的特性，並兼顧環保、易保存的優點，如何將資訊融入教學以及利用現代科技提升教學效率和品質，將也是教育思考的另一個重點，但我們也相信，一個好的產品要讓使用者願意用、覺得好用，才能真正發揮相輔相成的效果，這也才是系統發展真正的核心和目的。
+							| 另一方面，浩鑫在電腦硬體裝置上擁有超過30年的完善技術能力，在小型化PC設計上，也因為散熱機制研發，更具有市場領先地位。除了一般商用市場使用之外，在教育場域裡也都可搭配應用，不論是校園內的電腦硬體設備需求或是教學上的輔助設備，皆能提供價格實惠又功能齊全的產品讓學校選購，期能軟、硬搭配，創造彈性、效率、服務的多樣化服務模式。
+							
+						.left style="padding:0 20px 0 0"
+							img.img src='#{assetspath}images/assets/0#{site_no}/0#{site_no}-section-01-01.jpg' alt="XPC準系統"
+							p.img-note #{img_note_1}
+
+						h3 style="color:#3ac0f0" XPC準系統
 						p
-							| 在系統的改善和設計方面，EDUPAL
-							span.upper ® 
-							| 教室管理系統以往只能在特定機器上使用，這讓許多原本就有平板電腦的學校，無法做更有效的資源利用，但在EDUPAL
-							span.upper ® 
-							| 教室管理系統2.1升級版本中，便不再限制特定機器，並且能支援Windows平板，即使班級裡兩種不同的機種混用也沒問題，而這樣的改變，大大增加了學校硬體使用的彈性及教學應用的範圍。
+							| 浩鑫Shuttle XH170V為全新3公升薄型(Slim)機種，搭載Intel® H170晶片組，支援Intel®最新第六代LGA1151 Skylake 65W高效能處理器，藉由處理器內建的Intel®整合式繪圖核心，可支援播放4K/Ultra HD超高畫質影片，提供令人驚艷的影音效果；同時，機身後方提供1組HDMI與2組DisplayPort影音介面，可支援三螢幕獨立顯示輸出，讓多螢幕顯示應用更有彈性。XH170V提供豐富的I/O介面，包含USB 2.0、USB 3.0、SATA 6Gbps、RS232、M.2、Mini PCIe、Intel® Gigabit LAN等，並且內建1組M.2與1組Mini PCIe擴充插槽，可同時安裝M.2 SSD、WiFi模組或其他相容模組，提供強大的擴充能力與網路連接能力。此外，機身內部採用浩鑫專業的水冷式熱導管散熱模組，搭配智慧型散熱風扇，以及優異的散熱氣流設計，整機不僅通過24/7嚴格測試，更能在0℃～50℃的 寬溫環境中穩定運作，滿足多元行業應用之要求。應用領域：4K大型數位看板、KIOSK、高畫質家庭影音娛樂系統、辦公室電腦、教育電子白板。
+
+						.left style="padding:0 20px 0 0"
+							img.img src='#{assetspath}images/assets/0#{site_no}/0#{site_no}-section-01-02.jpg' alt="XPC準系統"
+							p.img-note #{img_note_1_2}
+
+						h3 style="color:#3ac0f0" Slim薄型電腦
 						p
-							| 浩鑫一直以來始終秉持著「創新、品質、誠信、服務」的四大經營原則，我們的目標簡單明確，浩鑫不僅要做電腦硬體製造設計領導品牌，更期以整合軟體能力，提供全面且完善的軟硬整合方案，並落實研發以終端使用者應用為導向的產品與服務。
+							| 浩鑫Shuttle XH170V為全新3公升薄型(Slim)機種，搭載Intel® H170晶片組，支援Intel®最新第六代LGA1151 Skylake 65W高效能處理器，藉由處理器內建的Intel®整合式繪圖核心，可支援播放4K/Ultra HD超高畫質影片，提供令人驚艷的影音效果；同時，機身後方提供1組HDMI與2組DisplayPort影音介面，可支援三螢幕獨立顯示輸出，讓多螢幕顯示應用更有彈性。XH170V提供豐富的I/O介面，包含USB 2.0、USB 3.0、SATA 6Gbps、RS232、M.2、Mini PCIe、Intel® Gigabit LAN等，並且內建1組M.2與1組Mini PCIe擴充插槽，可同時安裝M.2 SSD、WiFi模組或其他相容模組，提供強大的擴充能力與網路連接能力。此外，機身內部採用浩鑫專業的水冷式熱導管散熱模組，搭配智慧型散熱風扇，以及優異的散熱氣流設計，整機不僅通過24/7嚴格測試，更能在0℃～50℃的 寬溫環境中穩定運作，滿足多元行業應用之要求。應用領域：4K大型數位看板、KIOSK、高畫質家庭影音娛樂系統、辦公室電腦、教育電子白板。
 						
+						.left style="padding:0 20px 0 0"
+							img.img src='#{assetspath}images/assets/0#{site_no}/0#{site_no}-section-01-03.jpg' alt="XPC準系統"
+							p.img-note #{img_note_1_3}
+
+						h3 style="color:#3ac0f0" 生物辨識系統
+						p
+							| 浩鑫公司專注於垂直應用市場，在生物辨識領域最新推出HR70人臉辨識系統，以All-in-One一體成型設計，結合方便使用的操作介面，提供非侵入、非接觸式的智慧型人臉辨識功能。HR70搭載高效能雙核心處理器平台，可提高人臉辨識處理速度且具備高度精確的辨識能力；內建Full HD雙鏡頭以及LED補光燈，具備人臉雙軸±15度的辨識角度，在低光源環境下也能精準運作。同時，內部設置RS232、RS485、GPIO等控制器，可支援各種相關週邊，提供更多元的系統應用能力，對於一般公司行號、政府機關、金融行庫、教育研究單位、社區住宅…等，都是最佳的考勤系統、門禁管制之解決方案。
+
 						/ .morecontent
 						/ a.btn.btn-blue.morelink href='javascript:;' 詳全文
 
 
-			#SECTION-02.section-odd
-				.container
-					h1.section-title
-						span.section__title-icon
-						span.section__title #{nav_title_2}
-					/ h2.heading #{heading_title_2}
-					div style="height:40px"
-					.content
-						.left
-							img.img src='#{assetspath}images/assets/0#{site_no}/0#{site_no}-section-02.jpg' alt='一次看懂自然科學'
-						table
-							tr
-								td width="24%"
-									b 出版社
-								td
-									| 時報文化
-							tr
-								td
-									b 作者
-								td
-									| 劉炯朗
-							tr
-								td
-									b ISBN
-								td
-									| 9789571352909
-							tr
-								td
-									b 得獎紀錄
-								td
-									ul.list-disc
-										li
-											| 中國時報開卷年度十大好書獎(最佳青少年好書)
-										li
-											| 博客來「年度百大」(科普TOP19)
-										li
-											| 馬英九總統推薦2011年暑期青年閱讀好書
-										li
-											| 第35屆金鼎獎圖書類非文學獎科學類
-										li
-											| 新聞局第33次中小學生優良課外讀物推介
-										li
-											| 中國時報開卷2010年度好書獎最佳青少年圖書
-						.morecontent
-							.left
-								table
-									tr
-										td width="8%"
-											b 簡介
-										td
-											| 當人文遇上科技，
-											br
-											| 會激起什麼樣的靈光與火花？
-											p
-												| 一頭華髮、睿智幽默的劉炯朗教學四十年，深受學生敬愛。年逾七十，面對知識總不失赤子之心，仍熱愛求知、不斷學習，自詡「深受西方影響的中國讀書人」。2005年，劉炯朗接下電台邀約，主持「我愛談天你愛笑」節目，深入淺出地為讀者介紹天文地理、文學歷史等領域的重要大事，將科學與人文巧妙結合，引發熱烈回響。
-											p
-												| 透過個人的學思歷程，劉校長期勉年輕人：不要畫地自限，要有廣泛興趣。順從自己的喜好，培養專業以外的興趣，感受世界的美好。
-											p
-												| 本書收錄二十六篇自然領域相關文章，用輕鬆詼諧的筆調帶領讀者一窺科學之美，包括： 銀河為什麼又叫牛奶路?奧卡姆的剃刀可以拿來做什麼?費米先生為什麼陷入兩難?外星人根本不存在？或者只是我們沒看到？「追星族」們如何狂熱探尋科學真理之美？牛痘、抗生素的發明其實是一連串偶然？為什麼圓形是最經濟的形狀？你是不是忙不停又瘦不了？……
+			/ #SECTION-02.section-odd
+			/ 	.container
+			/ 		h1.section-title
+			/ 			span.section__title-icon
+			/ 			span.section__title #{nav_title_2}
+			/ 		/ h2.heading #{heading_title_2}
+			/ 		div style="height:40px"
+			/ 		.content
+			/ 			.left
+			/ 				img.img src='#{assetspath}images/assets/0#{site_no}/0#{site_no}-section-02.jpg' alt='一次看懂自然科學'
+			/ 			table
+			/ 				tr
+			/ 					td width="24%"
+			/ 						b 出版社
+			/ 					td
+			/ 						| 時報文化
+			/ 				tr
+			/ 					td
+			/ 						b 作者
+			/ 					td
+			/ 						| 劉炯朗
+			/ 				tr
+			/ 					td
+			/ 						b ISBN
+			/ 					td
+			/ 						| 9789571352909
+			/ 				tr
+			/ 					td
+			/ 						b 得獎紀錄
+			/ 					td
+			/ 						ul.list-disc
+			/ 							li
+			/ 								| 中國時報開卷年度十大好書獎(最佳青少年好書)
+			/ 							li
+			/ 								| 博客來「年度百大」(科普TOP19)
+			/ 							li
+			/ 								| 馬英九總統推薦2011年暑期青年閱讀好書
+			/ 							li
+			/ 								| 第35屆金鼎獎圖書類非文學獎科學類
+			/ 							li
+			/ 								| 新聞局第33次中小學生優良課外讀物推介
+			/ 							li
+			/ 								| 中國時報開卷2010年度好書獎最佳青少年圖書
+			/ 			.morecontent
+			/ 				.left
+			/ 					table
+			/ 						tr
+			/ 							td width="8%"
+			/ 								b 簡介
+			/ 							td
+			/ 								| 當人文遇上科技，
+			/ 								br
+			/ 								| 會激起什麼樣的靈光與火花？
+			/ 								p
+			/ 									| 一頭華髮、睿智幽默的劉炯朗教學四十年，深受學生敬愛。年逾七十，面對知識總不失赤子之心，仍熱愛求知、不斷學習，自詡「深受西方影響的中國讀書人」。2005年，劉炯朗接下電台邀約，主持「我愛談天你愛笑」節目，深入淺出地為讀者介紹天文地理、文學歷史等領域的重要大事，將科學與人文巧妙結合，引發熱烈回響。
+			/ 								p
+			/ 									| 透過個人的學思歷程，劉校長期勉年輕人：不要畫地自限，要有廣泛興趣。順從自己的喜好，培養專業以外的興趣，感受世界的美好。
+			/ 								p
+			/ 									| 本書收錄二十六篇自然領域相關文章，用輕鬆詼諧的筆調帶領讀者一窺科學之美，包括： 銀河為什麼又叫牛奶路?奧卡姆的剃刀可以拿來做什麼?費米先生為什麼陷入兩難?外星人根本不存在？或者只是我們沒看到？「追星族」們如何狂熱探尋科學真理之美？牛痘、抗生素的發明其實是一連串偶然？為什麼圓形是最經濟的形狀？你是不是忙不停又瘦不了？……
 						
-						a.btn.btn-orange.morelink.right href='javascript:;' 詳全文
+			/ 			a.btn.btn-orange.morelink.right href='javascript:;' 詳全文
 
-			#SECTION-03.section-even
-				.container
-					h1.section-title
-						span.section__title-icon
-						span.section__title #{nav_title_3}
-					/ h2.heading #{heading_title_3}
-					div style="height:40px"
-					.content
-						ul.heyper-link
-							li
-								a href="http://goo.gl/yIEIVc" target="_brank"
-									| 每天班上有1/4的同學缺席很正常？
-							li
-								a href="http://goo.gl/JNpmKP" target="_brank"
-									| 楊照：教育不只教孩子「別當壞蛋」，更要教會孩子「別當不懂生命樂趣的笨蛋」
-							li
-								a href="http://goo.gl/5F6lJN" target="_brank"
-									| 暑假作業 淪家族手工競技
-							li
-								a href="http://goo.gl/dhdv8N" target="_brank"
-									| 小過動兒變發明王 技職給了黃泓傑一片天
-							li
-								a href="http://goo.gl/B8HcEY" target="_brank"
-									| 鐵人夢語－學生真的懂了嗎？
-							li
-								a href="http://goo.gl/qoZy0m" target="_brank"
-									| 為什麼老師不能犯錯？印度沙發客，讓我反思台灣的「裝懂」教育
-							li
-								a href="http://goo.gl/7VEpd7" target="_brank"
-									| 瑞典教育，從遊戲開始──你不知道的電玩大國
-							li
-								a href="http://goo.gl/cUyt1j" target="_brank"
-									| 國高中數學教計算機　網友樂見
-							li
-								a href="http://goo.gl/9VOrMh" target="_brank"
-									| 親師溝通怎麼LINE？創造雙贏的4個使用重點
-							li
-								a href="http://goo.gl/TeM4QU" target="_brank"
-									| 教出會思考的小公民
+			/ #SECTION-03.section-even
+			/ 	.container
+			/ 		h1.section-title
+			/ 			span.section__title-icon
+			/ 			span.section__title #{nav_title_3}
+			/ 		/ h2.heading #{heading_title_3}
+			/ 		div style="height:40px"
+			/ 		.content
+			/ 			ul.heyper-link
+			/ 				li
+			/ 					a href="http://goo.gl/yIEIVc" target="_brank"
+			/ 						| 每天班上有1/4的同學缺席很正常？
+			/ 				li
+			/ 					a href="http://goo.gl/JNpmKP" target="_brank"
+			/ 						| 楊照：教育不只教孩子「別當壞蛋」，更要教會孩子「別當不懂生命樂趣的笨蛋」
+			/ 				li
+			/ 					a href="http://goo.gl/5F6lJN" target="_brank"
+			/ 						| 暑假作業 淪家族手工競技
+			/ 				li
+			/ 					a href="http://goo.gl/dhdv8N" target="_brank"
+			/ 						| 小過動兒變發明王 技職給了黃泓傑一片天
+			/ 				li
+			/ 					a href="http://goo.gl/B8HcEY" target="_brank"
+			/ 						| 鐵人夢語－學生真的懂了嗎？
+			/ 				li
+			/ 					a href="http://goo.gl/qoZy0m" target="_brank"
+			/ 						| 為什麼老師不能犯錯？印度沙發客，讓我反思台灣的「裝懂」教育
+			/ 				li
+			/ 					a href="http://goo.gl/7VEpd7" target="_brank"
+			/ 						| 瑞典教育，從遊戲開始──你不知道的電玩大國
+			/ 				li
+			/ 					a href="http://goo.gl/cUyt1j" target="_brank"
+			/ 						| 國高中數學教計算機　網友樂見
+			/ 				li
+			/ 					a href="http://goo.gl/9VOrMh" target="_brank"
+			/ 						| 親師溝通怎麼LINE？創造雙贏的4個使用重點
+			/ 				li
+			/ 					a href="http://goo.gl/TeM4QU" target="_brank"
+			/ 						| 教出會思考的小公民
 							
 						
 						/ .morecontent
